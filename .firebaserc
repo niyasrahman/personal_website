@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "prod": "portfolio-5b4a3"
+  }
+}
