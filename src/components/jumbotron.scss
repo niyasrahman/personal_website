@@ -1,0 +1,35 @@
+.jumbotron {
+  float: left;
+  width: 100%;
+  padding: 20px 0 40px 0;
+  background-color: #121212;
+  color: #fff;
+  &__container {
+    max-width: 916px;
+    padding: 0 14px;
+    margin: auto;
+  }
+  &__img {
+    float: left;
+    width: 100px;
+    margin-right: 40px;
+    img {
+      border-radius: 31px;
+      filter: grayscale(100%);
+    }
+  }
+  &__name {
+    float: left;
+    clear: both;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    margin: 16px 0;
+  }
+  &__para {
+    float: left;
+    clear: both;
+    margin: 16px 0;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+  }
+}

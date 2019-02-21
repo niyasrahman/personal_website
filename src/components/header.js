@@ -1,42 +1,27 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from "gatsby";
+import React from "react";
+import "./header.scss";
+const SSLink = url => (
+  <a rel="noopener noreferrer" target="_blank" href={url.url}>
+    <span className={`header__${url.type}`} />
+  </a>
+);
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+const Header = ({ SocialURL }) => (
+  <header className="header">
+    <div className="header__container">
+      <Link to="/">
+        <span className="header__logo">Niyas Rahman</span>
+      </Link>
+      <ul className="header__social-container">
+        <SSLink type={"github"} url={SocialURL.github} />
+        <SSLink type={"dev"} url={SocialURL.dev} />
+        <SSLink type={"twitter"} url={SocialURL.twitter} />
+        <SSLink type={"linkedin"} url={SocialURL.linkedin} />
+        <SSLink type={"codepen"} url={SocialURL.codepen} />
+      </ul>
     </div>
   </header>
-)
+);
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Header
+export default Header;

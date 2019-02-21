@@ -1,0 +1,52 @@
+{
+  "socialLinks": {
+    "github": "http://github.com/niyasrahman",
+    "dev": "http://dev.to/niyasrahman",
+    "twitter": "http://twitter.com/niyasrahman",
+    "linkedin": "http://linkedin.com",
+    "codepen": "http://codepen.com/niyasrahman"
+  },
+  "Jumbotron": {
+    "title": "Hi, I'm NiyasRahman.",
+    "text": "My name's Niyas Rahman. I'm a front-end developer from Kerala, India and Welcome to my site. I work with HTML, CSS, and JavaScript. My current projects use ReactJS as the view library."
+  },
+  "footer": "Made with Gatsby.js & ❤ In india",
+  "sideproject": [
+    {
+      "id": "1",
+      "title": "Flexbox 101",
+      "status": "WIP",
+      "para": "to ingest open source data from sans and identities.",
+      "image": "schema.png",
+      "github": "",
+      "liveurl": ""
+    },
+    {
+      "id": "2",
+      "title": "How it works",
+      "status": "WIP",
+      "para": "page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable (PII) and information about a customer’s money and their transactions.",
+      "image": "schema.png",
+      "github": "",
+      "liveurl": ""
+    },
+    {
+      "id": "3",
+      "title": "Schema Generator",
+      "status": "WIP",
+      "para": "to aggregate page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable",
+      "image": "schema.png",
+      "github": "",
+      "liveurl": ""
+    },
+    {
+      "id": "4",
+      "title": "The CSS Show",
+      "status": "WIP",
+      "para": "page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable",
+      "image": "csshake.png",
+      "github": "",
+      "liveurl": ""
+    }
+  ]
+}

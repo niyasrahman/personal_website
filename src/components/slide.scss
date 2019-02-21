@@ -1,0 +1,93 @@
+.blog_post__text {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  font-size: 9px;
+}
+
+.slide {
+  &__item {
+    float: left;
+    width: 100%;
+    margin: 50px 0;
+  }
+  &__items {
+    float: left;
+    width: 100%;
+    * {
+      outline: none;
+    }
+  }
+  &__image {
+    float: left;
+    width: 100%;
+    position: relative;
+    @media (min-width: 991px) {
+      width: 50%;
+    }
+    img {
+      float: left;
+      width: 100%;
+    }
+  }
+  &__tag {
+    position: absolute;
+    right: 7px;
+    background: #b04c94;
+    color: #fff;
+    padding: 8px 13px;
+    top: 5px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+  }
+  &__links {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    float: left;
+  }
+  &__links-gt {
+    background-image: url(../images/github-logo.svg);
+    padding: 8px 9px;
+    margin: 0 10px;
+    background-position: center;
+    background-size: contain;
+    float: left;
+    width: 10px;
+    background-repeat: no-repeat;
+  }
+  &__links-link {
+    background-image: url(../images/link.svg);
+    padding: 8px 9px;
+    background-position: center;
+    background-size: contain;
+    float: left;
+    margin: 0 10px;
+    width: 10px;
+    background-repeat: no-repeat;
+  }
+  &__content {
+    float: left;
+    width: 100%;
+    @media (min-width: 991px) {
+      width: 50%;
+
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+    h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 21px;
+      margin: 0 0 11px 0;
+      float: left;
+      width: 100%;
+    }
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}

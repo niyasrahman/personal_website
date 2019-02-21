@@ -10,13 +10,20 @@
     "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-offline": "^2.0.23",
     "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sass": "^2.0.10",
     "gatsby-plugin-sharp": "^2.0.20",
     "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-source-medium": "^2.0.4",
+    "gatsby-transformer-json": "^2.1.8",
     "gatsby-transformer-sharp": "^2.1.13",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-slick": "^0.23.2",
+    "slick-carousel": "^1.8.1"
   },
   "keywords": [
     "gatsby"
