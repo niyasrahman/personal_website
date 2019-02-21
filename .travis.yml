@@ -11,7 +11,7 @@ addons:
 env: CXX=g++-4.8
 branches:
   only:
-    - master
+    - landing
 before_script:
   - "yarn global add firebase-tools"
   - "yarn global add gatsby"
