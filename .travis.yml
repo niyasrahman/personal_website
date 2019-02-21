@@ -4,7 +4,7 @@ node_js:
 cache: yarn
 branches:
   only:
-    - landing
+    - live
 before_script:
   - "yarn global add firebase-tools"
   - "yarn global add gatsby"
