@@ -16,6 +16,6 @@ before_script:
   - "yarn global add firebase-tools"
   - "yarn global add gatsby"
 script:
-  - "yarn build"
+  - "gatsby build"
 after_success:
   - "firebase deploy --token=${KEY}"
