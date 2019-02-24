@@ -40,6 +40,16 @@ module.exports = {
         icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
       }
     },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-MCQPBRP",
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-offline`,
     {
