@@ -37,6 +37,7 @@ export const pageQuery = graphql`
             status
             github
             liveurl
+            tags
           }
         }
       }

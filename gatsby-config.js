@@ -55,7 +55,7 @@ module.exports = {
     {
       resolve: `gatsby-source-medium`,
       options: {
-        username: `@abhishekjakhar`,
+        username: `@niyasrahman`,
         limit: 200
       }
     }
