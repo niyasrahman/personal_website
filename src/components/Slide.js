@@ -1,20 +1,29 @@
 import React, { Component } from "react";
-import { Link } from "gatsby";
 import "./slide.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { auto } from "eol";
 const Slide = ({ data }) => {
   return (
     <div className="slide__item">
       <div className="slide__image">
-        <img src={`/side/${data.image}`} />
-        <span className="slide__tag">{data.status}</span>
+        <img alt="sideproject" src={`/side/${data.image}`} />
+        <span
+          className={`slide__tag ${data.status == "live" ? "live" : "wip"}`}
+        >
+          {data.status}
+        </span>
       </div>
       <div className="slide__content">
         <h2>{data.title}</h2>
         <p>{data.para}</p>
+        <div className="tag__container">
+          {data.tags.map((document, i) => (
+            <div className="tag" key={i}>
+              {document}
+            </div>
+          ))}
+        </div>
       </div>
       <div className="slide__links">
         <a rel="noopener noreferrer" target="_blank" href={data.github}>
@@ -52,6 +61,12 @@ class Slides extends Component {
         },
         {
           breakpoint: 999,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 640,
           settings: {
             slidesToShow: 1
           }

@@ -2,9 +2,9 @@
   "socialLinks": {
     "github": "http://github.com/niyasrahman",
     "dev": "http://dev.to/niyasrahman",
-    "twitter": "http://twitter.com/niyasrahman",
-    "linkedin": "http://linkedin.com",
-    "codepen": "http://codepen.com/niyasrahman"
+    "twitter": "https://twitter.com/niyasrahman007",
+    "linkedin": "https://www.linkedin.com/in/niyas--rahman-/",
+    "codepen": "https://codepen.io/niyas/"
   },
   "Jumbotron": {
     "title": "Hi, I'm NiyasRahman.",
@@ -15,26 +15,39 @@
     {
       "id": "1",
       "title": "Flexbox 101",
+      "status": "live",
+      "tags": ["tool", "css"],
+      "para": "Flexbox 101 is a playground for developers who want to try out flexbox with the live interactive UI.",
+      "image": "flexbox.png",
+      "github": "https://github.com/niyasrahman/flexbox_xyz",
+      "liveurl": "https://flexbox101.ml/"
+    },
+    {
+      "id": "5",
+      "title": "Gatsby source dailymotion",
       "status": "WIP",
-      "para": "to ingest open source data from sans and identities.",
-      "image": "schema.png",
+      "tags": ["plugin", "npm", "gatsby", "tool"],
+      "para": "Source plugin for pulling data into Gatsby from dailymotion user videos endpoint.      ",
+      "image": "gt.jpeg",
       "github": "",
       "liveurl": ""
     },
     {
       "id": "2",
       "title": "How it works",
-      "status": "WIP",
-      "para": "page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable (PII) and information about a customer’s money and their transactions.",
-      "image": "schema.png",
+      "status": "wip",
+      "tags": ["blog", "react", "learn", "serverless"],
+      "para": "howitworks.ml is a blog which teaches you deep things about front end stuff. we are building this project with very interesting stacks",
+      "image": "front-end.jpg",
       "github": "",
       "liveurl": ""
     },
     {
       "id": "3",
       "title": "Schema Generator",
-      "status": "WIP",
-      "para": "to aggregate page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable",
+      "status": "wip",
+      "tags": ["tool", "SEO"],
+      "para": "Schema Generator is a SEO tool to make schema markup creates an enhanced description (commonly known as a rich snippet)",
       "image": "schema.png",
       "github": "",
       "liveurl": ""
@@ -42,8 +55,9 @@
     {
       "id": "4",
       "title": "The CSS Show",
-      "status": "WIP",
-      "para": "page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable",
+      "status": "wip",
+      "tags": ["video", "css", "js"],
+      "para": "The CSS Show is a YouTube Channel. there I post speed art kind of video for CSS Like Making hamburger menu using CSS and js",
       "image": "csshake.png",
       "github": "",
       "liveurl": ""
