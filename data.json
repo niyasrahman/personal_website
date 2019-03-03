@@ -25,12 +25,12 @@
     {
       "id": "5",
       "title": "Gatsby source dailymotion",
-      "status": "WIP",
+      "status": "live",
       "tags": ["plugin", "npm", "gatsby", "tool"],
       "para": "Source plugin for pulling data into Gatsby from dailymotion user videos endpoint.      ",
       "image": "gt.jpeg",
-      "github": "",
-      "liveurl": ""
+      "github": "https://github.com/niyasrahman/gatsby-source-dailymotion",
+      "liveurl": "https://www.npmjs.com/package/gatsby-source-dailymotion"
     },
     {
       "id": "2",
